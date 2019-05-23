@@ -1,0 +1,49 @@
+Clase 22/05
+
+Creo carpeta
+Git--> git init -- git config
+
+JAVASCRIPT
+/* comentario entre lineas
+
+Linkeo--> <script src="JS.js"></script>
+
+TIPOS DE DATOS
+
+*Primitivos --> String --> "" o ''
+		Number--> cualquier tipo de numero
+		Boolean--> true or false
+		Undefined-->  una variable sin valor
+		Null
+(Cualquiera que no sea alguno de estos es un objeto)
+
+*Objetos --> Object--> {}
+             Array--> [] valor fijo
+             Function--> 
+
+*Variables--> var - let -const 
+Los nombres pueden ser _ $ o cualquier letra 
+
+*console.log (X): nos muestra en consola lo que vale X
+
+Si reemplazo una variable por otro valor, el sist va a tomar el ultimo valor asignado
+Los cambios se leen en orden, a medida que se van realizando en el archivo
+
+*Estructuras de control
+-Condicionales
+-Bucles/ciclos
+
+*for--> sirve para iterar sobre matrices indexadas secuenciales (array)
+for (let i=0; i<numeros.length; i++) {
+    console.log(numeros) }
+*for in--> sirve para iterar matrices indexadas asociativas (objetos) 
+for(prop in persona ) {
+    console.log(prop)
+}
+
+
+
+*debug--> en chrome desde "sources", poniendo un break point donde quiero debuggear
+
+*for in-->
+
