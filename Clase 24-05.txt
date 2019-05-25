@@ -1,0 +1,37 @@
+Clase 24/05
+
+Motor de JS--> V8
+Web APIs--> actualizaciones de navegadores
+Objeto global-->window --> BOM--> Browswer Objetc Model (Representacion del navegador)
+
+innerHeight-> numero en px de alto del documento
+innerWidth-> numero en px de ancho
+
+outerHeight-> Ancho y alto del navegador
+outerWidth->
+
+Console-> Object -> nos da funciones de logueo de consola de desarrollo
+Location-> Object-> tiene propiedades que controlan la ubicación del usuario
+Location-> Href -> 
+
+
+
+document-> DOM->document object Model
+console.dir (x)-> muestra X en formato JSON (JavaScript Object Notation)
+console.clear() -> Limpia la pantalla
+
+SELECCIONAR NODOS
+document.getElementById(x) => DomElement
+document.getElementsByTagName(x) => Array
+document.getElementsByClassName(x) => Array
+document.querySelector(x) DomElement - busca la primera instancia del selector x
+document.querySelectorAll(x)  Array - busca todas las instancias de selector x
+
+let item2 = document.querySelector("#item2")
+console.dir(item2)
+
+CREAR NODOS
+nodo.appendChild(NodoNuevo) -> inserta el NodoNuevo como ultimo hijo de Nodo
+
+
+

@@ -28,3 +28,26 @@ for(let i=0; i<numeros.length ;i++){
 for(prop in persona ) {
     console.log(prop)
 }
+
+console.clear()
+console.dir (document)
+let item2 = document.getElementById("item2") 
+console.dir ("item2")
+
+let items = document.getElementsByClassName("item")
+let lis = document.getElementsByTagName ("li")
+console.dir(lis)
+
+let p = document.createElement("p")
+p.innerText = "Mi Nuevo Texto"
+p.id = "nuevo"
+
+console.log(p)
+
+let body = document.querySelector ("body")
+body.appendChild(p)
+
+let 
+let nuevoItem = document.createElement("li")
+nuevoItem.innerText="Perritos"
+nuevoItem.insertBefore()
